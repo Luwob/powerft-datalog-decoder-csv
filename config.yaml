@@ -1,0 +1,36 @@
+# ============================================================
+# FT Datalog Decoder - Configuracao de nomes dos canais
+# ============================================================
+#
+# Formato:  NomeOriginal: NomeDesejado
+#
+# Se um canal nao estiver listado aqui, o nome original do
+# arquivo .ftml sera mantido no CSV de saida.
+#
+# Para descobrir os nomes originais disponiveis, exporte um
+# .ftml sem configurar este arquivo e veja o cabecalho do CSV.
+# ============================================================
+
+# --- Canais principais ---
+RPMIndex: RPM
+TPSIndex: TPS
+MAPIndex: MAP
+IgnAdvanceIndex: Ignition_timing
+LambdaTargetIndex: O2_Target
+LambdaCorrectionIndex: O2_Correction
+Exhaust_O2Index: O2_General
+InjBankAIndex: Primary_injection_time
+EngineTempIndex: Engine_temp
+AirTempIndex: Air_temp
+OilPressureIndex: Oil_pressure
+FuelPressureIndex: Fuel_pressure
+VBatIndex: Battery_voltage
+WheelSpeed_TractionHiResIndex: Wheel_speed_traction
+ActualGearIndex: Gear
+InjBankADutyIndex: Injector_duty
+
+# --- Canais digitais ---
+# TwoStep_Digital_Index: TwoStep
+# GapSync_Digital_Index: Gap_sync
+# CutOff_Digital_Index: CutOff
+# FastInj_Digital_Index: Fast_injection
